@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body {
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: lightcyan;
+  color: Blue;
+  padding: 10px;
+  margin: 10px;
+}
+nav {
+  background-color: black;
+  padding: 3px;
+  box-shadow: 3px 4px 4px black;
+}
+nav>a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  margin-right: 30px;
+}
+nav>a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+main {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+section#novidades > h2 {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+section#newforms > h2{
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 0.3em;
+}
+footer {
+  background-color: black; 
+}
+footer>p{
+  color: white;
+  text-align: center;
+  padding: 3px;
+  margin: 0px;
+}
