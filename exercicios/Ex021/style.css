@@ -1,18 +1,19 @@
 @charset "UTF-8";
 body {
-  background-color: lightgray;
+  background-color: rgb(135, 135, 252);
   font-family: Arial, Helvetica, sans-serif;
 }
 header {
-  background-color: lightcyan;
+  background-color: lightskyblue;
   color: Blue;
   padding: 10px;
   margin: 10px;
 }
 nav {
-  background-color: black;
+  background-color: blue;
   padding: 3px;
-  box-shadow: 3px 4px 4px black;
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.589);
+  
 }
 nav>a{
   text-decoration: none;
@@ -22,7 +23,7 @@ nav>a{
 }
 nav>a:hover{
   text-decoration: underline;
-  color: blue;
+  color: aqua;
 }
 main {
   background-color: white;
@@ -31,20 +32,35 @@ main {
 }
 section#novidades > h2 {
   background-color: lightgray;
+  color: blue;
   padding: 10px;
   border-radius: 5px;
 }
 section#newforms > h2{
   background-color: lightgray;
+  color: blue;
   padding: 10px;
   border-radius: 0.3em;
 }
 footer {
-  background-color: black; 
+  background-color: blue; 
+  font-size: smaller;
+  font-weight: thin;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.712);
 }
 footer>p{
   color: white;
   text-align: center;
-  padding: 3px;
+  padding: 1px;
   margin: 0px;
+}
+h1#razaosoc{
+  color: rgb(39, 26, 161);
+  font-size: xx-larger;
+}
+h4#slogan{
+  color: rgb(82, 84, 197);
+}
+img{
+  font-;
 }
