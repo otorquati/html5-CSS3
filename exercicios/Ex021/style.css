@@ -8,6 +8,7 @@ header {
   color: Blue;
   padding: 10px;
   margin: 10px;
+  border-radius: 0px 20px;
 }
 nav {
   background-color: blue;
@@ -29,6 +30,8 @@ main {
   background-color: white;
   padding: 10px;
   margin: 10px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.438);
 }
 section#novidades > h2 {
   background-color: lightgray;
@@ -63,4 +66,11 @@ h4#slogan{
 }
 img{
   font-;
+}
+div#bola{
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: aliceblue;
 }
