@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posicionamento</title>
+  <style>
+  body .top {
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      display:inline-block;
+      width: 200px;
+      height: 200px;
+      border: 1px solid black;
+    }
+    body .top p{
+      text-align: center;
+      padding-top: 100px;
+    }
+    body .centro {
+      background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      display:inline-block;
+      width: 200px;
+      height: 200px;
+      border: 1px solid black;
+      margin-top: 5px;
+
+    }
+    body .centro p{
+      text-align: center;
+      padding-top: 150px;
+    }
+    body .fundo {
+      background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+      background-size: 100px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      display:inline-block;
+      width: 200px;
+      height: 200px;
+      border: 1px solid black;
+      margin-top: 5px;
+    }
+    p{
+      text-align: center;
+      padding-top: 10px;
+    }
+    div#lt{
+      background-position: left top;
+    }
+    div#ct{
+      background-position: center top;
+    }
+    div#rt{
+      background-position: right top;
+    }
+    div#lc{
+      background-position: left center;
+    }
+    div#cc{
+      background-position: center center;
+    }
+    div#rc{
+      background-position: right center;
+    }
+    div#lb{
+      background-position: left bottom;
+    }
+    div#cb{
+      background-position: bottom center;
+    }
+    div#rb{
+      background-position: right bottom;
+    }
+  </style>
+</head>
+<body>
+  <!-- topo *-->
+    <div class="top" id="lt">
+      <p>Left top</p>
+    </div>
+    <div class="top" id="ct">
+      <p>Center top</p>
+    </div>
+    <div class="top" id="rt">
+      <p>Right top</p>
+    </div>
+  <!-- Centro *-->
+    <div class="centro" id="lc">
+      <p>Left Center</p>
+    </div>
+    <div class="centro" id="cc">
+        <p>Center</p>
+    </div>
+
+    <div class="centro" id="rc">
+      <p>Right Center</p>
+    </div>
+  <!--Fundo -->
+    <div class="fundo" id="lb">
+      <p> Right Bottom</p>
+    </div>
+    <div class="fundo" id="cb">
+      <p>Center Bottom</p>
+    </div>
+    <div class="fundo" id="rb">
+      <p>Right Bottom</p>
+    </div>
+</body>
+</html>
